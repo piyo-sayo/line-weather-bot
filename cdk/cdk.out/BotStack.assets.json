@@ -1,0 +1,48 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "4922291101ac65263ab3ee5e3e8d59337190a04fbb9bd8268c0ff32a6528b831": {
+      "displayName": "WebhookHandler/Code",
+      "source": {
+        "path": "asset.4922291101ac65263ab3ee5e3e8d59337190a04fbb9bd8268c0ff32a6528b831",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-642828a3": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "4922291101ac65263ab3ee5e3e8d59337190a04fbb9bd8268c0ff32a6528b831.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "6e8f6ec1158f62ce813d7f89ae058aaa9a369cf6cc4706a2b6d8298d9d59e243": {
+      "displayName": "SendWeather/Code",
+      "source": {
+        "path": "asset.6e8f6ec1158f62ce813d7f89ae058aaa9a369cf6cc4706a2b6d8298d9d59e243",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-12ef3abf": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "6e8f6ec1158f62ce813d7f89ae058aaa9a369cf6cc4706a2b6d8298d9d59e243.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "851b39be57097009ddde4bccb8ccb19cb03d0ad678e1af6d5fd3db02c88dd437": {
+      "displayName": "BotStack Template",
+      "source": {
+        "path": "BotStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-80a55010": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "851b39be57097009ddde4bccb8ccb19cb03d0ad678e1af6d5fd3db02c88dd437.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
