@@ -29,7 +29,7 @@ AWS Lambda + API Gateway + DynamoDB を使って作成した LINE 天気通知 B
 
 ---
 
-## 📊 アーキテクチャ構成図（Mermaid）
+## 📊 アーキテクチャ構成図
 
 ```mermaid
 graph TD
