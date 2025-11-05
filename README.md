@@ -1,4 +1,3 @@
-```markdown
 # 🌤️ LINE Weather Bot
 
 AWS Lambda + API Gateway + DynamoDB を使って作成した LINE 天気通知 Bot です。  
