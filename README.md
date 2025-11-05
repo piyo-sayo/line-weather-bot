@@ -1,3 +1,4 @@
+```markdown
 # 🌤️ LINE Weather Bot
 
 AWS Lambda + API Gateway + DynamoDB を使って作成した LINE 天気通知 Bot です。  
@@ -16,9 +17,9 @@ AWS Lambda + API Gateway + DynamoDB を使って作成した LINE 天気通知 B
 ---
 
 ## 🚀 デプロイ構成
-1. `lambda/webhook`：LINEからのWebhookを受け取り
-2. `lambda/send_weather`：毎朝の天気通知処理
-3. `cdk`：AWS CDKによるIaC構成
+1. `lambda/webhook`：LINEからのWebhookを受け取り  
+2. `lambda/send_weather`：毎朝の天気通知処理  
+3. `cdk`：AWS CDKによるIaC構成  
 
 ---
 
@@ -30,6 +31,7 @@ AWS Lambda + API Gateway + DynamoDB を使って作成した LINE 天気通知 B
 ---
 
 ## 📊 アーキテクチャ構成図（Mermaid）
+
 ```mermaid
 graph TD
     A[ユーザー（LINE）] -->|Webhook| B(API Gateway)
@@ -39,7 +41,6 @@ graph TD
     E -->|Push| A
     E --> F[LINE Push通知]
 
----
 
 ## ✨ 作成者
 **Sayo.W**（[@piyo-sayo](https://github.com/piyo-sayo)）
